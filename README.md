@@ -1,2 +1,3 @@
 # Mini-Projeto-Curso
-MiniProjeto
+Projeto para o curso de Js
+entendimentos basicos sobre html e css
