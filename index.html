@@ -4,17 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechCursos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <img class="logo" src="./assets/logo.png" alt="">
-          <label for="site-search"></label>
-  <input  class="pesquisar" placeholder="Digite sua pesquisa" />
-  <button class="busca">Buscar</button>
-</header>
-<nav>
+        <div class="logo">
+            <img src="assets/SEMBG/logoheader.png" alt="">
+        </div>
 
-</nav>
+        <div class="textos-nav">
+            <a href="">Home</a>
+            <a href="">Nossas soluções</a>
+            <a href="">Sobre nós</a>
+        </div>
+
+        <div class="botao-nav">
+            <button class="btn-entrar">Entrar</button>
+            <button class="btn-planos">Planos</button>
+        </div>
+    </header>
+    <main>
+        <div class="texto-main">
+            <h1>Aprenda com facilidade e qualidade</h1>
+            <p class="sub-main">
+Somos a plataforma ideal para quem quer se destacar no mercado de tecnologia.
+Oferecemos cursos atualizados, práticos e focados nas habilidades mais
+procuradas pelas empresas, com professores experientes e certificados
+reconhecidos. Aprenda no seu ritmo, evolua na sua carreira e invista no seu
+futuro com a TechCursos.
+            </p>
+        </div>
+    </main>
+    <section class="solucoes">
+        <div class="textos-solucoes">
+            <h1>Nossas soluções</h1>
+            <p class="sub-sol">
+                Tudo o que você precisa para crescimento pessoal na area Tech.
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="img-card">
+                    <img class="img-estoque" src="assets/SEMBG/satisfaction.png" alt="">
+                </div>
+                <div class="texto-card">
+                    <p class="titulo-card">Referencia em Qualidade</p>
+                    <p class="sub-card">Alta qualidade de ensino, aula com os melhores professores tech.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img class="img-estoque" src="assets/SEMBG/balance.png" alt="">
+                </div>
+                <div class="texto-card">
+                    <p class="titulo-card">Invista no seu futuro</p>
+                    <p class="sub-card">Retire Certificados, evolua na sua area destacando-se entre outros.</p>
+                </div>
+                
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img class="img-estoque" src="assets/SEMBG/tempo.png" alt="">
+                </div>
+                <div class="texto-card">
+                    <p class="titulo-card">Controle de tempo</p>
+                    <p class="sub-card">Estudos otimizados se adequando com sua rotina.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+<section class="sobre">
+    <div class="sobre-container">
+
+        
+<div class="sobre-equipe">
+            <h2>Nossa equipe</h2>
+
+            <div class="foto-container">
+                <img src="assets/SEMBG/perfilazul.png" alt="Equipe">
+            </div>
+
+            <h3>Eduardo Bernal</h3>
+            <span class="cargo">C.E.O AND DEVELOPER</span>
+
+            <a href="https://www.linkedin.com/in/eduardo-bernal-385282368/" target="_blank" rel="noopener noreferrer" class="linkedin">
+                <img src="assets/SEMBG/linkedin.png" alt="">
+            </a>
+        </div>
+
+    
+        <div class="divisor-sobre"></div>
+
+        
+        <div class="sobre-equipe">
+            <h2>Nossa equipe</h2>
+
+            <div class="foto-container">
+                <img src="assets/SEMBG/perfilazul.png" alt="Equipe">
+            </div>
+
+            <h3>Eduardo Bernal</h3>
+            <span class="cargo">C.E.O AND DEVELOPER</span>
+
+            <a href="https://www.linkedin.com/in/eduardo-bernal-385282368/" target="_blank" rel="noopener noreferrer" class="linkedin">
+                <img src="assets/SEMBG/linkedin.png" alt="">
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer-logo" style="width: 200px;">
+        <img src="assets/SEMBG/logoheader.png" alt="">
+    </div>
+
+    <div class="footer-centro">
+        <div class="footer-redes">
+            <a href=""><img src="assets/SEMBG/link.png" alt=""></a>
+            <a href=""><img src="assets/SEMBG/insta.png" alt=""></a>
+            <a href=""><img src="assets/SEMBG/face.png" alt=""></a>
+        </div>
+        <p>© Copyrights all rights reserved.</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="">Termos de uso</a>
+        <a href="">Política de privacidade</a>
+    </div>
+</footer>
+
+<div class="modal-overlay" id="modalPlanos">
+    <div class="modal-planos">
+        <button class="fechar-modal" id="fecharModal">&times;</button>
+
+        <h2 class="titulo-modal">Escolha seu plano</h2>
+
+        <div class="planos-container">
+
+            
+            <div class="plano-card">
+                <h3>Basic</h3>
+                <p class="plano-desc">Ideal para Estudantes no Inicio ou migração de carreira</p>
+                <span class="preco">R$ 99<span>/mês</span></span>
+
+                <ul>
+                    <li> ✔ Até 500 Cursos</li>
+                    <li> ✔ 1 usuário</li>
+                    <li> ✔ Certificados</li>
+                    <li> ✔ Relatórios básicos</li>
+                    <li> ✔ Suporte por e-mail</li>
+                </ul>
+
+                <button class="btn-plano">Começar agora</button>
+            </div>
+
+
+            <div class="plano-card destaque">
+                <span class="tag-popular">Mais popular</span>
+                <h3>Profissional</h3>
+                <p class="plano-desc">Ideal para Estudantes no intermediarios</p>
+                <span class="preco">R$ 199<span>/mês</span></span>
+
+                <ul>
+                    <li> ✔ Até 2.000 Cursos</li>
+                    <li> ✔ 2 usuários</li>
+                    <li> ✔ Certificados</li>
+                    <li> ✔ Relatórios avançados</li>
+                    <li> ✔ Suporte prioritário</li>
+                </ul>
+
+                <button class="btn-plano ativo">Começar agora</button>
+            </div>
+
+            <div class="plano-card">
+                <h3>MasterTech</h3>
+                <p class="plano-desc">Ideal para Estudantes no avançados</p>
+                <span class="preco">R$ 399<span>/mês</span></span>
+
+                <ul>
+                    <li> ✔ Todos os Cursos</li>
+                    <li> ✔ 4 usuários</li>
+                    <li> ✔ Certificados</li>
+                    <li> ✔ Suporte 24/7</li>
+                    <li> ✔ Suporte prioritário</li>
+                </ul>
+
+                <button class="btn-plano">Começar agora</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 </body>
+
 </html>
