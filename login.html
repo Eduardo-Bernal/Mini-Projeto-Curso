@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCursos - Login & Cadastro</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="scripts/login.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Entrar</button>
+                <button type="button" class="toggle-btn" onclick="register()">Cadastrar</button>
+            </div>
+            
+            <div class="logo-container">
+                <img class="logo-tech" src="assets/SEMBG/logoheader.png" alt="" style="width: 75%;">
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Senha" required>
+            
+                <button type="submit" class="submit-btn">Entrar</button>
+            </form>
+
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Nome Completo" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Crie uma Senha" required>
+                
+                <button type="submit" class="submit-btn">Criar Conta</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
