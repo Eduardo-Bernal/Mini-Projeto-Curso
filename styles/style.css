@@ -117,6 +117,7 @@ h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-bottom: 4px solid #AA00D0;
     height: 90vh;
     /* background-image: linear-gradient(to right top, #78268b, #64185d, #491337, #290f1c, #000000); */
     background-image: radial-gradient(circle, #aa00d0, #8503a3, #630479, #420451, #24002c);
@@ -196,10 +197,12 @@ h1 {
 
 
 .sobre {
-    background-color: #bf05eb;
+    /* background-color: #818181; */
     padding: 0% 4% 0% 4%;
     color: #ffffff;
+    border-bottom: 4px solid #AA00D0;
     height: 100vh;
+    background-image: linear-gradient(to top, #0f0018, #1c0925, #290d32, #3a0d3e, #4c0849);
 }
 
 .sobre-container {
@@ -288,7 +291,8 @@ h1 {
 
 
 footer {
-    background-color: #050006;
+    /* background-color: #050006; */
+    background-image: linear-gradient(to bottom, #0f0018, #1c0925, #290d32, #3a0d3e, #4c0849);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
